@@ -1,4 +1,4 @@
-# Example React NextJS Login and Sign Up User using MongoDB
+# Example React NextJS Login and Sign Up User using MongoDB for database and SASS for styling
 
 ## How to use
 
@@ -28,4 +28,5 @@ MONGODB_NAME will the the DB / Collection name
 - [Iron Session](https://npmjs.com/package/iron-session)
 - [Axios](https://axios-http.com/)
 - [Next Seo](https://npmjs.com/package/next-seo)
+- [Sass](https://sass-lang.com/)
 - [Dicebear](https://avatars.dicebear.com/)

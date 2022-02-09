@@ -17,10 +17,10 @@ export default withSessionApi(async (req: NextApiRequest, res) => {
 
     const db = await dbConnect();
     const data = await db
-      .collection("shot_users")
+      .collection("example_users")
       .findOne({ username, password });
     if (data) {
-      await db.collection("shot_users").findOneAndUpdate(
+      await db.collection("example_users").findOneAndUpdate(
         {
           username,
         },
@@ -40,7 +40,7 @@ export default withSessionApi(async (req: NextApiRequest, res) => {
     }
 
     if (!data) {
-      await db.collection("shot_users").insertOne({
+      await db.collection("example_users").insertOne({
         username,
         password,
         avatar: new_avatar,
