@@ -20,85 +20,172 @@ $extrabold: 800;
   min-height: 100vh;
 }
 
-.box {
-  background-color: white;
-  width: 25%;
-  height: 500px;
-  border-radius: $border-medium;
+@media (max-width: 640px) {
+  .box {
+    background-color: white;
+    width: 55%;
+    height: 500px;
+    border-radius: $border-medium;
+  }
+
+  .forms {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    margin-top: $space-min;
+  }
+
+  .bar {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: $space-min;
+  }
+
+  .bar_input {
+    display: flex;
+    align-items: center;
+  }
+
+  .show {
+    display: flex;
+    align-items: center;
+    margin-left: $space-large;
+  }
+
+  .input {
+    border: 2px solid $secondary-color;
+    border-radius: $border-medium;
+    height: 2rem;
+    text-align: left;
+    font-size: medium;
+    font-weight: $medium;
+  }
+
+  .form_title {
+    text-align: center;
+    font-size: large;
+    font-weight: $semibold;
+  }
+
+  .box_bottom {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .create {
+    width: 10rem;
+    border-radius: $border-medium;
+    border: none;
+    background-color: $third-color;
+    color: white;
+    font-size: medium;
+    height: 2rem;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+  }
+  .create:hover {
+    background-color: $secondary-color;
+  }
+
+  .login {
+    color: #3366bb;
+  }
+
+  .login:hover {
+    color: #0645ad;
+    text-decoration: underline;
+    text-underline-offset: 1px;
+  }
+
+  .title {
+    text-align: center;
+  }
 }
 
-.forms {
-  align-items: center;
-  display: flex;
-  flex-direction: column;
-  margin-top: $space-min;
-}
+@media (min-width: 720px) {
+  .box {
+    background-color: white;
+    width: 25%;
+    height: 500px;
+    border-radius: $border-medium;
+  }
 
-.bar {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  margin-top: $space-min;
-}
+  .forms {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    margin-top: $space-min;
+  }
 
-.bar_input {
-  display: flex;
-  align-items: center;
-}
+  .bar {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: $space-min;
+  }
 
-.show {
-  display: flex;
-  align-items: center;
-  margin-left: $space-large;
-}
+  .bar_input {
+    display: flex;
+    align-items: center;
+  }
 
-.input {
-  border: 2px solid $secondary-color;
-  border-radius: $border-medium;
-  height: 2rem;
-  text-align: left;
-  font-size: medium;
-  font-weight: $medium;
-}
+  .show {
+    display: flex;
+    align-items: center;
+    margin-left: $space-large;
+  }
 
-.form_title {
-  text-align: center;
-  font-size: large;
-  font-weight: $semibold;
-}
+  .input {
+    border: 2px solid $secondary-color;
+    border-radius: $border-medium;
+    height: 2rem;
+    text-align: left;
+    font-size: medium;
+    font-weight: $medium;
+  }
 
-.box_bottom {
-  align-items: center;
-  display: flex;
-  flex-direction: column;
-}
+  .form_title {
+    text-align: center;
+    font-size: large;
+    font-weight: $semibold;
+  }
 
-.create {
-  width: 10rem;
-  border-radius: $border-medium;
-  border: none;
-  background-color: $third-color;
-  color: white;
-  font-size: medium;
-  height: 2rem;
-  align-items: center;
-  display: flex;
-  justify-content: center;
-}
-.create:hover {
-  background-color: $secondary-color;
-}
+  .box_bottom {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+  }
 
-.login {
-  color: #3366bb;
-}
+  .create {
+    width: 10rem;
+    border-radius: $border-medium;
+    border: none;
+    background-color: $third-color;
+    color: white;
+    font-size: medium;
+    height: 2rem;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+  }
+  .create:hover {
+    background-color: $secondary-color;
+  }
 
-.login:hover {
-  color: #0645ad;
-  text-decoration: underline;
-  text-underline-offset: 1px;
-}
+  .login {
+    color: #3366bb;
+  }
 
-.title {
-  text-align: center;
+  .login:hover {
+    color: #0645ad;
+    text-decoration: underline;
+    text-underline-offset: 1px;
+  }
+
+  .title {
+    text-align: center;
+  }
 }

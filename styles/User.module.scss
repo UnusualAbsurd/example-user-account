@@ -20,11 +20,22 @@ $extrabold: 800;
   min-height: 100vh;
 }
 
-.box {
-  background-color: white;
-  width: 25%;
-  height: 220px;
-  border-radius: $border-medium;
+@media (min-width: 720px) {
+  .box {
+    background-color: white;
+    width: 20%;
+    height: 220px;
+    border-radius: $border-medium;
+  }
+}
+
+@media (max-width: 640px) {
+  .box {
+    background-color: white;
+    width: 50%;
+    height: 220px;
+    border-radius: $border-medium;
+  }
 }
 
 .user_info_div {
