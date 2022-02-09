@@ -1,0 +1,22 @@
+$primary-color: rgb(17 24 39);
+$secondary-color: rgb(31 41 55);
+
+.title {
+  font-size: 10px bold;
+  color: white;
+  text-align: center;
+}
+
+.bottom_left {
+  bottom: 0px;
+  left: 0px;
+}
+
+.author {
+  text-align: center;
+}
+
+.author:hover {
+  text-decoration: underline;
+  text-underline-offset: 1px;
+}

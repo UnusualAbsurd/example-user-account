@@ -1,0 +1,56 @@
+$primary-color: rgb(17 24 39);
+$secondary-color: rgb(31 41 55);
+$third-color: rgb(55 65 81);
+$fourth-color: rgb(75 85 99);
+$border-medium: 0.375rem;
+$space-min: 0.25rem;
+$space-med: 0.75rem;
+$space-large: 1.25rem;
+$bold: 700;
+$semibold: 600;
+$medium: 500;
+$extrabold: 800;
+
+.center_screen {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  min-height: 100vh;
+}
+
+.box {
+  background-color: white;
+  width: 25%;
+  height: 220px;
+  border-radius: $border-medium;
+}
+
+.user_info_div {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  margin-top: $space-med;
+}
+
+.logout {
+  width: 10rem;
+  border-radius: $border-medium;
+  border: none;
+  background-color: $third-color;
+  color: white;
+  font-size: medium;
+  height: 2rem;
+  align-items: center;
+  display: flex;
+  justify-content: center;
+}
+
+.logout:hover {
+  background-color: $secondary-color;
+}
+
+.title {
+  text-align: center;
+}
