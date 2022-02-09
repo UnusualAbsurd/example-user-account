@@ -1,5 +1,9 @@
 # Example React NextJS Login and Sign Up User using MongoDB for database and SASS for styling
 
+# Live Example
+
+[example-login-signup-nextjs.netlify.app/](https://example-login-signup-nextjs.netlify.app/)
+
 ## How to use
 
 ```cmd
@@ -18,8 +22,9 @@ COOKIE_SECRET=
 ```
 
 Generate the `COOKIE_SECRET` from [1password.com/password-generator](https://1password.com/password-generator/)
-MONGODB_URI will be the mongodb SRV
-MONGODB_NAME will the the DB / Collection name
+**_minimum 32 length_** <br />
+`MONGODB_URI` will be the mongodb SRV <br />
+`MONGODB_NAME` will the the DB / Collection name
 
 ## Utilities
 
